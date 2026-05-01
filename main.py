@@ -18,9 +18,10 @@ def country_app():
         }
     }
 
-    response = jsonify(datos)
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    return response
+   response = jsonify(datos)
+response.headers.add('Access-Control-Allow-Origin', '*')
+app.config['JSON_AS_ASCII'] = False
+return response
 
 if __name__ == '__main__':
     app.run(debug=True)
