@@ -14,7 +14,7 @@ def country_app():
         "expensas": {
             "estado": "Al día",
             "monto": 15000,
-            "vencimiento": "10/05/2026"
+            "vencimiento": "10/07/2026"
         }
     }
     response = jsonify(datos)
@@ -26,29 +26,29 @@ def eventos():
     datos = {
         "eventos": [
             {
-                "dia": "18",
-                "mes": "JUN",
+                "dia": "01",
+                "mes": "JUL",
                 "titulo": "Torneo de tenis — inscripciones abiertas",
                 "descripcion": "Torneo interno mensual en canchas de polvo de ladrillo. Categorías: primera, segunda y damas.",
                 "categoria": "Deporte"
             },
             {
                 "dia": "14",
-                "mes": "MAY",
+                "mes": "JUL",
                 "titulo": "Corte de agua programado",
                 "descripcion": "Mantenimiento de red hídrica. Sin suministro de 9 a 13hs en sector norte.",
                 "categoria": "Aviso"
             },
             {
-                "dia": "18",
-                "mes": "MAY",
+                "dia": "24",
+                "mes": "JUL",
                 "titulo": "Feria de productores — Club House",
                 "descripcion": "Feria mensual con productores locales. Frutas, verduras y productos artesanales.",
                 "categoria": "Comunidad"
             },
             {
-                "dia": "24",
-                "mes": "MAY",
+                "dia": "25",
+                "mes": "JUL",
                 "titulo": "Clases de kayak — inicio de temporada",
                 "descripcion": "Clases grupales para todas las edades en el lago. Inscripción previa requerida.",
                 "categoria": "Deporte"
