@@ -26,8 +26,8 @@ def eventos():
     datos = {
         "eventos": [
             {
-                "dia": "10",
-                "mes": "MAY",
+                "dia": "18",
+                "mes": "JUN",
                 "titulo": "Torneo de tenis — inscripciones abiertas",
                 "descripcion": "Torneo interno mensual en canchas de polvo de ladrillo. Categorías: primera, segunda y damas.",
                 "categoria": "Deporte"
